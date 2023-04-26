@@ -1,0 +1,11 @@
+队列：“先进先出”原则，只能将队列中的数据取出到队列最大值一次，不能再次进行存储。
+front=-1指向队列最前元素的前一个元素  rear=-1指向队列最后一个元素的后一个元素
+front==rear表示队列为空  rear==maxSize-1表示队列满
+循环队列：需要空出一个空间作为约定
+front=0表示指向队列中的首个元素  rear=0也指向队列中的首个元素
+front==（front+1）%maxSize表示在循环队列中的front下标  
+rear==（rear+1）%maxSize表示在循环队列中的rear下标 
+（rear+1）%maxSize==front表示循环队列为满
+rear==front表示循环队列为空
+（rear-front+maxSize）%maxSize表示循环队列中有效数据的长度
+单链表：有序的表。
