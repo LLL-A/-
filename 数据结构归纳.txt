@@ -9,3 +9,4 @@ rear==（rear+1）%maxSize表示在循环队列中的rear下标
 rear==front表示循环队列为空
 （rear-front+maxSize）%maxSize表示循环队列中有效数据的长度
 单链表：有序的表。
+aaa
